@@ -28,6 +28,9 @@ a {
 header a:hover {
   color: var(--hover-color);
 }
+header a:focus {
+  color: var(--hover-color);
+}
 header a {
   font-size: 14px;
   font-weight: 500;
@@ -106,6 +109,11 @@ h1 {
   border-radius: 4px;
 }
 .filters-section button:hover {
+  background-color: var(--hover-color);
+  color: var(--invert-text-color);
+  box-shadow: 2px 2px 4px #e5e5e5;
+}
+.filters-section button:focus {
   background-color: var(--hover-color);
   color: var(--invert-text-color);
   box-shadow: 2px 2px 4px #e5e5e5;
